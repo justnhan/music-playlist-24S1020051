@@ -40,11 +40,10 @@ def add_song():
     })
     print("Đã thêm bài hát vào playlist.")
 
+
 def view_playlist():
     for i in range (len(songs)):
         print ("1.",songs[i]["Title"],"- Nghệ sĩ -",songs[i]["artist"],"(",songs[i]["duration"],"s)")
-
-
 
 
     
