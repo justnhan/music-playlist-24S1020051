@@ -1,4 +1,8 @@
-songs=[]
+songs=[
+    {'Title':'Người đừng lặng im','artist':'soobin','duration':200},
+    {'Title':'Yêu 5','artist':'Rhymastic','duration':300},
+    {'Title':'Thất tình','artist':'Trịnh Đình Quang','duration':400}
+    ]
 
 def main():
     while True: 
