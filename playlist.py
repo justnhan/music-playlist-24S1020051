@@ -25,6 +25,26 @@ def main():
             break 
         else: 
             print("Lựa chọn không hợp lệ.") 
- 
+
+def add_song():
+    print ("Vui lòng nhập tên bài hát:")
+    title = input()
+    print("Nhập nghệ sĩ:")
+    artist = input()
+    print("Nhập thời lượng:")
+    duration = int(input())
+    songs.append({
+        "Title": title,
+        "artist": artist,
+        "duration": duration
+    })
+    print("Đã thêm bài hát vào playlist.")
+    for i in range (4):
+        print (songs[i])
+
+
+    
+
 if __name__ == "__main__": 
     main() 
+
