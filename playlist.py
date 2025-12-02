@@ -39,8 +39,11 @@ def add_song():
         "duration": duration
     })
     print("Đã thêm bài hát vào playlist.")
-    for i in range (4):
-        print (songs[i])
+
+
+def view_playlist():
+    for i in range (len(songs)):
+        print ("1.",songs[i]["Title"],"- Nghệ sĩ -",songs[i]["artist"],"(",songs[i]["duration"],"s)")
 
 
     
